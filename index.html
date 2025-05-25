@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShinArise</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+<!-- Latest Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+
+    <!--header starts-->
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class ="logo"><span>Shin</span>Arise</a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="Search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+
+    </header>
+
+    <!--header ends-->
+
+    <!--login form container-->
+
+        <div class="login-form-container">
+
+            <i class="fas fa-times" id="form-close"></i>
+
+            <form action="">
+                <h3>Login</h3>
+                <input type="email" class="box" placeholder="Enter your email">
+                <input type="password" class="box" placeholder="Enter your password">
+                <input type="submit" value="login now"class="btn">
+                <input type="checkbox" id="remember">
+                <label for="remember">Remember Me</label>
+                <p>Forget Password? 
+                    <a href="#">Click here</a>
+                </p>
+                <p>Don't have an account? 
+                    <a href="#">Register Now</a>
+                </p>
+
+            </form>
+        </div>
+
+
+
+<!--home starts-->
+
+<section class="home" id="home">
+    <div class="content">
+        <h3>Explore the Wonders of Palawan – Journey Through the Last Frontier</h3>
+        <p>Breathe, Relax, and Be Amaze</p>
+        <a href="#" class="btn">Discover here</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn" data-src="images/tourist.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="images/tourist.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+</section>
+
+<!--home ends-->
+
+<!--services starts-->
+
+    <section class="services" id="services">
+        <h1 class="heading">SERVICES</h1>
+    
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>White Sand Beaches</h3>
+            <p>Powdery shores and turquoise waters perfect for sunbathing and swimming.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>Beachfront Resorts & Hotels</h3>
+            <p>From luxury to budget-friendly options.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>Fresh Seafood & Island Cuisine</h3>
+            <p>Taste the ocean’s bounty in every bite.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>Friendly Locals</h3>
+            <p>Known for their warmth, smiles, and island hospitality.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>Island Hopping Adventures</h3>
+            <p>Explore hidden lagoons, secret beaches, and scenic islands.</p>
+        </div>
+
+    </div>
+</section>
+
+<!--services ends-->
+
+<!--gallery starts-->
+    <section class="gallery" id="gallery">
+        <h1 class="heading">GALLERY</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/mactan.jpg" alt="">
+                <div class="content">
+                    <h3>Island-Hopping in Mactan Island</h3>
+                    <p>A picturesque islets surround the waters of Cebu Island Province, and some are considered among the best in the Philippines. </p>
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/carnaza island.jpg" alt="">
+                <div class="content">
+                    <h3>Carnaza Island</h3>
+                    <p>The island features diverse natural landscapes including mangrove swamps, lagoons, hills, and forests, with white sand beaches, clear waters, hidden caves, and a scenic cliff offering panoramic views of the Visayan Sea.</p>
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/Sardine Run.png" alt="">
+                <div class="content">
+                    <h3>Sardine Run in Moalboal town</h3>
+                    <p>Moalboal offers a surreal underwater experience where you can swim with millions of sardines and spot turtles while snorkeling. This breathtaking spectacle is accessible year-round, even with just goggles, and guided tours are readily available in town.                    </p>
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/Hike to Osmeña Peak.jpg" alt="">
+                <div class="content">
+                    <h3>Hike to Osmeña Peak                    </h3>
+                    <p>Osmeña Peak, Cebu’s highest point at 1,013 meters, is part of the spire-studded Mantalongon Range in Dalaguete. Nicknamed the “Vegetable Basket of Cebu,” the town’s lush fields and livestock create a scenic path to the summit.</p>
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/See Thresher Sharks.jpg" alt="">
+                <div class="content">
+                    <h3>Thresher Sharks</h3>
+                    <p>Malapascua Island is renowned for its vibrant marine life and world-famous dive spots. It’s the only place on Earth where divers can see thresher sharks daily, along with sightings of hammerhead sharks, manta rays, and blue ring octopuses.</p>
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/camote islad.png" alt="">
+                <div class="content">
+                    <h3>Water Adventures in Camotes Island </h3>
+                    <p>Camotes Island is a haven for adventure seekers. One of its top attractions is the Holy Crystal Cave, known for its downward-sloping chambers.</p>
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/Marine Biodiversity on Sumilon Island.jpg" alt="">
+                <div class="content">
+                    <h3>Marine Biodiversity</h3>
+                    <p>Sumilon Island is one of Cebu’s most captivating spots, known for its shifting sandbar that changes with the tide. Surrounded by crystal-clear waters in stunning shades of blue, it offers an irresistible invitation to swim and explore.</p>
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/Beaches of Bantayan Island.jpg" alt="">
+                <div class="content">
+                    <h3> Beaches of Bantayan Island</h3>
+                    <p>One of the top activities in Cebu is visiting Bantayan Island, known for its pristine white sand beaches that rival Boracay’s beauty—all set in a peaceful fishing village atmosphere.</p>
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/Canyoneering to Kawasan Falls.jpg" alt="">
+                <div class="content">
+                    <h3>Canyoneering to Kawasan Falls</h3>
+                    <p>Kawasan Falls, Cebu’s most famous attraction, is a stunning three-tiered waterfall with vibrant turquoise waters, offering one of the most unforgettable experiences in the Philippines.                    </p>
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+<!--gallery ends-->
+
+<!--review sectio starts-->
+
+    <section class="review" id="review">
+        <h1 class="heading">REVIEWS</h1>
+
+         <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/p1.jpg" alt="">
+                        <h3>Rissa Mae Alcain</h3>
+                        <p> "Absolutely Magical!"
+                            I’ve seen photos of Kawasan Falls online, but nothing compares to seeing it in person. The turquoise water is unreal, and swimming beneath the falls felt like a dream come true. A must-visit!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/p2.jpg" alt="">
+                        <h3>Yohan Shin</h3>
+                        <p> "Nature at Its Best!"
+                            From the short hike to the refreshing dip, everything about this place was perfect. The scenery is breathtaking and the air feels so fresh. Ideal for nature lovers!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/p3.jpg" alt="">
+                        <h3>Jeremiah Emmanuel</h3>
+                        <p>"Worth the Trip!"
+                            It’s a bit of a journey to get there, but totally worth it. The falls are stunning, especially the first tier. I also loved the bamboo rafting—such a fun and unique experience!
+                        </p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/p4.jpg" alt="">
+                        <h3>Geo Ong</h3>
+                        <p>"Great Spot for Adventure!"
+                            We tried the canyoneering activity leading to Kawasan Falls and it was thrilling! Jumping into the cool water and ending the trek at the falls was unforgettable.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/p5.jpg" alt="">
+                        <h3>Janice Ong</h3>
+                        <p>"Perfect for a Peaceful Escape"
+                            If you’re looking to relax, this is the place. The sound of cascading water and the serene environment helped me unwind completely. Pack a picnic and enjoy the view!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+         </div>
+
+    </section>
+
+<!--review sectio ends-->
+
+<!--Contact Section Starts-->
+
+    <section class="contact" id="contact">
+        <h1 class="heading">CONTACT</h1>
+
+        <div class="row">
+
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+
+                </div>
+
+                <div class="inputBox">
+                    <input type="number" placeholder="Number" required>
+                    <input type="text"  placeholder="Subject">
+                </div>
+                <textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="send message">
+            </form>
+        </div>
+    </section>
+
+<!--Contact Section ends-->
+
+<!--footer-->
+    <section class="footer">
+        <div class="box-container">
+           <div class="box">
+                <h3>About</h3>
+                <p>Palawan isn’t just a destination — it’s an experience. With its pristine beaches, vibrant marine life, and the warmth of its people, every moment here feels like a piece of paradise.</p>
+            </div>
+
+           <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#">home</a>
+                <a href="#">services</a>
+                <a href="#">gallery</a>
+                <a href="#">review</a>
+                <a href="#">contact</a>
+           </div>
+
+           <div class="box">
+            <h3>Follow</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">tiktok</a>
+            <a href="#">twitter</a>
+       </div>
+        </div>
+
+        <h1 class="reserved">Copyright @ ShinArise. All rights reserved</h1>
+
+    </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"> </script>
+    
+</body>
+</html> 
